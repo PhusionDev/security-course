@@ -3,3 +3,5 @@
 - https://www.youtube.com/watch?v=pUWmJ86X_do
 
 ## Current Timestamp
+
+- https://youtu.be/pUWmJ86X_do?t=2360
