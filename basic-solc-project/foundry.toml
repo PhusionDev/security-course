@@ -1,9 +1,12 @@
+# See more config options https://github.com/foundry-rs/foundry/blob/master/crates/config/README.md#all-options
+
 [profile.default]
 src = "src"
 out = "out"
 libs = ["lib"]
 
-# See more config options https://github.com/foundry-rs/foundry/blob/master/crates/config/README.md#all-options
+remappings = ['@openzeppelin/contracts=lib/openzeppelin-contracts/contracts']
+
 [fuzz]
 runs = 256
 max_test_rejects = 65536

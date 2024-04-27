@@ -11,4 +11,8 @@ contract Counter {
     function increment() public {
         number++;
     }
+
+    fallback() external {}
+
+    receive() external payable {}
 }
